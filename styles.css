@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    margin: auto;
+    padding: 10px 100px 10px 100px;
+    background-color:  #1F2937;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+#hero {
+    margin: auto;
+    padding: 10px 100px 10px 100px;
+    
+    background-color:  #1F2937;
+    color: #F9FAF8;
+    display: flex;
+
+}
+
+#hero div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img {
+    width: 500px;
+    height: 150px;
+}
