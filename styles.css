@@ -6,7 +6,7 @@ body {
 
 header {
     margin: auto;
-    padding: 10px 100px 10px 100px;
+    padding: 30px 100px 10px 100px;
     background-color:  #1F2937;
     display: flex;
     justify-content: space-between;
@@ -36,21 +36,48 @@ ul a {
 
 #hero {
     margin: auto;
-    padding: 10px 100px 10px 100px;
+    padding: 100px;
     
     background-color:  #1F2937;
     color: #F9FAF8;
     display: flex;
-
+    justify-content: space-between;
 }
 
 #hero div {
     display: flex;
     flex-direction: column;
-    
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
 }
 
 img {
-    width: 500px;
-    height: 150px;
+    width: 50%;
+    height: 40vh;
+    align-self: flex-end;
 }
+
+#hero button {
+    width: 100px;
+    height: 30px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
