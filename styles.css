@@ -126,12 +126,46 @@ img {
     font-style: normal;
 }
 
+#sign-up {
+    background-color: white;
+    color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
 
+.cta {
+    background-color: #3882F6;
+    width: 80%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.cta-text p:first-of-type {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0;
+}
 
+.cta-text p:last-of-type {
+    color: #f9faf8dc;
+    margin-top: 0;
+}
 
-
-
+/*this needs fixing*/
+.cta-button {
+    width: 100px;
+    height: 30px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-weight: bold;
+}
 
 
 
