@@ -157,7 +157,7 @@ img {
 }
 
 /*this needs fixing*/
-.cta-button {
+.cta-button button {
     width: 100px;
     height: 30px;
     background: #3882F6;
